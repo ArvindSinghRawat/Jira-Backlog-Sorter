@@ -154,3 +154,6 @@ dmypy.json
 cython_debug/
 
 .idea/
+
+# Mkdocs
+site/

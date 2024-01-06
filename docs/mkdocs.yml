@@ -1,0 +1,21 @@
+site_name: Jira Backlog Sorter
+site_author: Arvind Singh Rawat
+site_description: >-
+  This project is the documentation of the parent project `Jira Backlog Sorter`. This entails the detailed information on what that is and how to use it.
+
+repo_name: markdown-docs
+repo_url: https://github.com/ArvindSinghRawat/Jira-Backlog-Sorter
+
+edit_uri_template: edit/main/docs/src/{path}
+
+docs_dir: src
+site_dir: site
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
