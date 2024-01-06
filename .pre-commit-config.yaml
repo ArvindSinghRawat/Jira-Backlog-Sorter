@@ -15,11 +15,11 @@ repos:
         args: [ "-C", "." ]
       - id: poetry-export
         name: source-dependencies
-        args: [ "--without", "--without-hashes", "docs,test", "-f", "requirements.txt" ]
+        args: [ "--without-hashes","--without", "docs,test", "-f", "requirements.txt" ]
         verbose: true
       - id: poetry-export
         name: docs-dependencies
-        args: [ "--with", "--without-hashes", "docs", "-C", "./docs", "-f", "requirements.txt", "-o", "./docs/requirements.txt" ]
+        args: [ "--without-hashes", "--with",  "docs", "-C", "./docs", "-f", "requirements.txt", "-o", "./docs/requirements.txt" ]
         verbose: true
       - id: poetry-install
         args: [ "-C", "." ]
