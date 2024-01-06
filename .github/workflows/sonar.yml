@@ -3,12 +3,12 @@ name: Sonar Analysis
 on:
   push:
     branches: [ "main" ]
-    paths: 
+    paths:
       - 'src/**'
       - 'docs/**'
   pull_request:
     branches: [ "main" ]
-    paths: 
+    paths:
       - 'src/**'
       - 'docs/**'
 

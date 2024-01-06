@@ -2,13 +2,22 @@
 name = "jira backlog sorter"
 version = "0.0.1"
 description = "Library to provide the utilities to sort Jira Stories and Tasks"
-authors = ["Arvind Singh Rawat <39412688+ArvindSinghRawat@users.noreply.github.com>"]
-license = "MIT License"
+authors = [
+    "Arvind Singh Rawat <39412688+ArvindSinghRawat@users.noreply.github.com>"
+]
+license = "MIT"
 readme = "README.md"
+repository = "https://github.com/ArvindSinghRawat/Jira-Backlog-Sorter"
+keywords = ["jira", "management"]
 
 [tool.poetry.dependencies]
 python = "3.11"
 
+[tool.poetry.group.docs.dependencies]
+python = "3.11"
+
+[tool.poetry.group.test.dependencies]
+python = "3.11"
 
 [build-system]
 requires = ["poetry-core"]
