@@ -14,7 +14,6 @@ def activate_virtual_env(env):
 
     if platform.system() == "Windows":
         var = [os.sep.join([env, "Scripts", "activate.bat"])]
-        print(var)
         subprocess.call(var)
     elif os.name == "posix" or platform.system() == "darwin":
         subprocess.call(["source", env + "/bin/activate"])
