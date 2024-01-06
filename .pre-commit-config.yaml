@@ -31,13 +31,13 @@ repos:
         exclude: |
             (?x)^(
                 requirements.txt|
-                docs/requirements.txt|
+                docs/requirements.txt
             )$
       - id: trailing-whitespace
         exclude: |
             (?x)^(
                 requirements.txt|
-                docs/requirements.txt|
+                docs/requirements.txt
             )$
   - repo: https://github.com/psf/black
     rev: 23.12.1
