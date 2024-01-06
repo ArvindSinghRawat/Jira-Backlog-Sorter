@@ -1,6 +1,6 @@
-# Jira-Backlog-Sorter
+# Status
 
-## Statuses
+## Code Status
 
 <table>
     <tbody>

@@ -8,6 +8,7 @@ authors = [
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/ArvindSinghRawat/Jira-Backlog-Sorter"
+documentation = "https://arvindsinghrawat.github.io/Jira-Backlog-Sorter/"
 keywords = ["jira", "management"]
 
 [tool.poetry.dependencies]
